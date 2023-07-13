@@ -9,7 +9,7 @@ class dictionary(dict):
     def add(self, key, value):
         self[key] = value
 
-xref_disct = dictionary()
+xref_dict = dictionary()
 
 for segea in Segments():
     
